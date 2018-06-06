@@ -1,0 +1,7 @@
+ Q0(-4) use %p to output pointers, they don't make much sense interpreted as an integer.
+
+Q1: it is a good habit to use INT_MIN and INT_MAX or initialize to the 0th element and run the loop 1-n
+
+Q4(-9) you need to swap the IDs when you swap the scores or you end up changing the scores for students
+
+Q2: be careful with terminology, this is pass by pointer, (pass by reference has slightly different meaning in C++) 
